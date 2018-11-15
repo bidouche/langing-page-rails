@@ -1,0 +1,91 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ 
+ */
+ // Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
+
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.jumbotron {
+	margin-bottom: 0px;
+    color: white;
+    height: 100vh;
+    }
+   
+        .introduction {
+        text-align: center;
+        vertical-align: middle;
+        
+        }
+
+        .name {
+        font-family: "custom-headerfont",sans-serif;
+        color: yellow;
+
+        
+        }
+        .introduction p {
+        text-align: justify;
+        margin-left: 375px;
+        width: 400px;
+        font-weight: bold;
+        color: grey;
+        font-size: 20px
+        }
+        
+a
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: white;
+}
+a:hover
+{
+text-decoration: underline;
+}
+
+.footer{
+	
+}
+.footerright
+{
+	display: flex;
+	margin-left: auto;
+	padding-right: 10px;
+
+}
+.footer
+{
+
+	margin: 0px;
+	font-size: 15px;
+	padding-left: 10px;
+	display: flex;
+	flex-direction: row;
+	
+	
+	padding-top: 16px;
+	margin-left: 10px
+}
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
